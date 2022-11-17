@@ -1,4 +1,6 @@
 import "./HomePage.scss";
+import ellipse from "./Ellipse 1.png"
+import ellipse2 from "./Ellipse 2.png"
 
 
 export const HomePage = () => {
@@ -22,10 +24,9 @@ export const HomePage = () => {
       <div className="container">
         <img
           className="hero-img-shadow"
-          src="./Ellipse 2.png"
-          alt="shadow"
+          src={ellipse2} alt="shadow"
         />
-        <img className="hero-img" src="./Ellipse 1.png" alt="avatar" />
+        <img className="hero-img" src={ellipse} alt="avatar" />
       </div>
     </div>
   );
