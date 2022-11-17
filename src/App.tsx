@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import './App.scss';
+import { NavBar } from './NavBar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <NavBar />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
