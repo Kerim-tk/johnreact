@@ -1,0 +1,18 @@
+.header {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 33px;
+  padding-top: 10px;
+  margin-right: 60px;
+}
+
+.icon {
+  display: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */

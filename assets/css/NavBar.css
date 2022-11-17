@@ -1,0 +1,9 @@
+a {
+  color: black;
+  text-decoration: unset;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=NavBar.css.map */
