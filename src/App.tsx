@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./assets/images/logo.svg";
 import "./App.scss";
 import { NavBar } from "./NavBar";
 import { HomePage } from "./pages/HomePage/HomePage";
