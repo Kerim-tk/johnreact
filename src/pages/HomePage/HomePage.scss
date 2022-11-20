@@ -5,6 +5,14 @@
     margin-top: 150px;
     margin-right: 149px;
     margin-left: 148px;
+    text-align: start;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 125px;
+    margin-right: inherit;
   }
   .hero-h1 {
     width: 506px;
@@ -41,4 +49,41 @@
     position: absolute;
     width: 243px;
     height: 243px;
+  }
+  .second-container {
+    display: flex;
+    padding: 35px 148px;
+    background-color: #edf7fa;
+    margin-top: 71px;
+  }
+  .p-first {
+    background-color: #ffffff;
+    padding: 23px;
+  }
+  .first-post {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .second-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .a-post {
+    color: #00a8cc;
+  }
+  .h2-a {
+    height: 60px;
+  }
+  h2 {
+    font-weight: normal;
+    margin: 0px;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .App{
+    text-align: unset;
   }
