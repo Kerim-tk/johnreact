@@ -276,4 +276,58 @@
           display: unset;
       }
     }
+    .third-container {
+      margin: 50px 148px 0px 146px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+  }
+  .years-h2 {
+    color: #8695a4;
+    padding-left: 26px;
+  }
+  .years-p {
+    font-weight: 900;
+    color: #ffffff;
+    background: #142850;
+    width: fit-content;
+    border-radius: 16px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+  }
+  .years {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 22px 0px;
+  }
+  .first-design {
+       display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+  }
+  .second-design {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 32px;
+  }
+  .third-design {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 32px;
+  }
+  .works-img {
+    padding-right: 18px;
+  }
+  .FeaturedWorks {
+    margin-top: -29px;
+      position: absolute;
+  }
+  .works-p {
+    margin: 0px;
+    width: 500px;
+  }
   

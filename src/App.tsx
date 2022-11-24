@@ -3,6 +3,10 @@ import "./App.scss";
 import { NavBar } from "./NavBar";
 import { HomePage } from "./pages/HomePage/HomePage";
 import { Header } from "./pages/Header/Header";
+import { Footer } from "./pages/footer/footer";
+
+
+
 
 function App() {
   return (
@@ -11,9 +15,7 @@ function App() {
       <main>
         <HomePage />
       </main>
-      <footer>
-        <h2>Footer</h2>
-      </footer>
+      <Footer />
     </div>
   );
 }

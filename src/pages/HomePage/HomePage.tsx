@@ -1,6 +1,11 @@
 import "./HomePage.scss";
 import ellipse from "./Ellipse 1.png"
 import ellipse2 from "./Ellipse 2.png"
+import days from "./36 Days of Malayalam type.png"
+import compinents from "./Compinents.png"
+import disign from "./Designing.png"
+import vibrant from "./Vibrant.png"
+
 
 
 export const HomePage = () => {
@@ -66,6 +71,143 @@ export const HomePage = () => {
       </div>
     </div>
     </div>
+    <div className="third-container">
+    <div className="FeaturedWorks">
+      <h2>Featured works</h2>
+    </div>
+    <div className="first-design desktop-only">
+      <div className="works-img">
+        <img className="work-img" src={disign} alt="FeaturedWorks" />
+      </div>
+      <div>
+        <h1>Designing Dashboards</h1>
+        <div className="years">
+          <p className="years-p">2020</p>
+          <h2 className="years-h2">Dashboard</h2>
+        </div>
+        <p className="works-p">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+    </div>
+    <div className="second-design desktop-only">
+      <div className="works-img">
+        <img className="work-img" src={vibrant} alt="FeaturedWorks" />
+      </div>
+      <div>
+        <h1>Vibrant Portraits of 2020</h1>
+        <div className="years">
+          <p className="years-p">2018</p>
+          <h2 className="years-h2">Illustration</h2>
+        </div>
+        <p className="works-p">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+    </div>
+    <div className="third-design desktop-only">
+      <div className="works-img">
+        <img className="work-img" src={days} alt="FeaturedWorks" />
+      </div>
+      <div>
+        <h1>36 Days of Malayalam type</h1>
+        <div className="years">
+          <p className="years-p">2018</p>
+          <h2 className="years-h2">Typography</h2>
+        </div>
+        <p className="works-p">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+    </div>
+    <div className="third-design desktop-only">
+      <div className="works-img">
+        <img className="work-img" src={days} alt="FeaturedWorks" />
+      </div>
+      <div>
+        <h1>36 Days of Malayalam type</h1>
+        <div className="years">
+          <p className="years-p">2018</p>
+          <h2 className="years-h2">Typography</h2>
+        </div>
+        <p className="works-p">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="design-slider swiper">
+    <div className="swiper-wrapper">
+
+      <div className="swiper-slide">
+        <div className="works-img">
+          <img className="work-img" src={disign} alt="FeaturedWorks" />
+        </div>
+        <div>
+          <h1>Designing Dashboards</h1>
+          <div className="years">
+            <p className="years-p">2020</p>
+            <h2 className="years-h2">Dashboard</h2>
+          </div>
+          <p className="works-p">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div className="swiper-slide">
+        <div className="works-img">
+          <img className="work-img" src={vibrant} alt="FeaturedWorks" />
+        </div>
+        <div>
+          <h1>Vibrant Portraits of 2020</h1>
+          <div className="years">
+            <p className="years-p">2018</p>
+            <h2 className="years-h2">Illustration</h2>
+          </div>
+          <p className="works-p">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div className="swiper-slide">
+        <div className="works-img">
+          <img className="work-img" src={days} alt="FeaturedWorks" />
+        </div>
+        <div>
+          <h1>36 Days of Malayalam type</h1>
+          <div className="years">
+            <p className="years-p">2018</p>
+            <h2 className="years-h2">Typography</h2>
+          </div>
+          <p className="works-p">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+
+      </div>
+      <div className="swiper-button-prev"></div>
+      <div className="swiper-button-next"></div>
+
+
+    </div>
+  
+    
+    </div>
+    
     </>
   );
 };
